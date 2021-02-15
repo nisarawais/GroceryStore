@@ -56,20 +56,20 @@ public class Main {
         //These lines of code will test the Purchases class
 
         //create a new Purchases object
-//        System.out.println("\n-- Creating a Purchases object  and calling 'toString()' --");
-//        Purchases purchases = new Purchases();
-//        System.out.println(purchases);
+        System.out.println("\n-- Creating a Purchases object  and calling 'toString()' --");
+        Purchases purchases = new Purchases();
+        System.out.println(purchases);
 
         //add GroceryItem's to the purchases object
-//        purchases.addGroceryItem(milk);
-//        purchases.addGroceryItem(bread);
-//        purchases.addGroceryItem(bananas);
-//        purchases.addGroceryItem(pork);
-//        purchases.addGroceryItem(apples);
+        purchases.addGroceryItem(milk);
+        purchases.addGroceryItem(bread);
+        purchases.addGroceryItem(bananas);
+        purchases.addGroceryItem(pork);
+        purchases.addGroceryItem(apples);
 
         //test the totalPrice method
-//        System.out.println("\n-- Showing the total price (should be $30.12) --");
-//        System.out.printf("The total price is $%.2f%n", purchases.getTotalPrice());
+        System.out.println("\n-- Showing the total price (should be $30.12) --");
+        System.out.printf("The total price is $%.2f%n", purchases.getTotalPrice());
 
         //test the getGroceryNames as a String
 //        System.out.println("\n-- showing all the groceries separated by commas --");
