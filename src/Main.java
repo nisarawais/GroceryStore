@@ -76,11 +76,11 @@ public class Main {
         System.out.printf("The groceries purchased are: %s%n",purchases.getGroceryNames());
 
         //test the categories
-//        System.out.println("\n-- showing all the categories separated by commas without duplicates --");
-//        System.out.printf("The categories are: %s%n", purchases.getCategories());
+        System.out.println("\n-- showing all the categories separated by commas without duplicates --");
+        System.out.printf("The categories are: %s%n", purchases.getCategories());
 
         //test the toString method
-//        System.out.println("\n-- showing the toString() method after Purchases --");
-//        System.out.println(purchases);
+        System.out.println("\n-- showing the toString() method after Purchases --");
+        System.out.println(purchases);
     }
 }
