@@ -7,51 +7,51 @@ public class Main {
     public static void main(String[] args) {
 
         //the following lines of code will create valid grocery items
-//        System.out.println("-- Creating new grocery items --");
-//        GroceryItem milk = new GroceryItem("milk", 5.49, "dairy");
-//        System.out.println(milk);
-//        GroceryItem pork = new GroceryItem("pork chop", 8.92, "meat");
-//        System.out.println(pork);
-//        GroceryItem bread = new GroceryItem("bread", 3.99, "bread");
-//        System.out.println(bread);
-//        GroceryItem apples = new GroceryItem("apples", 8.76, "fruit");
-//        System.out.println(apples);
-//        GroceryItem bananas = new GroceryItem("bananas", 2.96, "fruit");
-//        System.out.println(bananas);
+        System.out.println("-- Creating new grocery items --");
+        GroceryItem milk = new GroceryItem("milk", 5.49, "dairy");
+        System.out.println(milk);
+        GroceryItem pork = new GroceryItem("pork chop", 8.92, "meat");
+        System.out.println(pork);
+        GroceryItem bread = new GroceryItem("bread", 3.99, "bread");
+        System.out.println(bread);
+        GroceryItem apples = new GroceryItem("apples", 8.76, "fruit");
+        System.out.println(apples);
+        GroceryItem bananas = new GroceryItem("bananas", 2.96, "fruit");
+        System.out.println(bananas);
 
-        //the following lines of code should trigger an exception
-//        System.out.println("\n-- Ensuring invalid objects are not created --");
-//        try{
-//            GroceryItem invalid = new GroceryItem("m", 5.49, "dairy");
-//            System.err.println("invalid should have triggered an exception for a short name");
-//        }catch (IllegalArgumentException e)
-//        {
-//            System.out.println("message for invalid name: " + e.getMessage());
-//        }
-//
-//        try{
-//            GroceryItem invalid = new GroceryItem("milk", -0.01, "dairy");
-//            System.err.println("invalid should have triggered an exception for a negative price");
-//        }catch (IllegalArgumentException e)
-//        {
-//            System.out.println("message for catching a price too low: " + e.getMessage());
-//        }
-//
-//        try{
-//            GroceryItem invalid = new GroceryItem("milk", 151, "dairy");
-//            System.err.println("invalid should have triggered an exception for a high price");
-//        }catch (IllegalArgumentException e)
-//        {
-//            System.out.println("message for catching a price too high: " + e.getMessage());
-//        }
-//
-//        try{
-//            GroceryItem invalid = new GroceryItem("milk", 151, "nonsense");
-//            System.err.println("invalid-should have triggered an exception for an invalid category");
-//        }catch (IllegalArgumentException e)
-//        {
-//            System.out.println("message for catching an invalid category: " + e.getMessage());
-//        }
+//        the following lines of code should trigger an exception
+        System.out.println("\n-- Ensuring invalid objects are not created --");
+        try{
+            GroceryItem invalid = new GroceryItem("m", 5.49, "dairy");
+            System.err.println("invalid should have triggered an exception for a short name");
+        }catch (IllegalArgumentException e)
+        {
+            System.out.println("message for invalid name: " + e.getMessage());
+        }
+
+        try{
+            GroceryItem invalid = new GroceryItem("milk", -0.01, "dairy");
+            System.err.println("invalid should have triggered an exception for a negative price");
+        }catch (IllegalArgumentException e)
+        {
+            System.out.println("message for catching a price too low: " + e.getMessage());
+        }
+
+        try{
+            GroceryItem invalid = new GroceryItem("milk", 151, "dairy");
+            System.err.println("invalid should have triggered an exception for a high price");
+        }catch (IllegalArgumentException e)
+        {
+            System.out.println("message for catching a price too high: " + e.getMessage());
+        }
+
+        try{
+            GroceryItem invalid = new GroceryItem("milk", 151, "nonsense");
+            System.err.println("invalid-should have triggered an exception for an invalid category");
+        }catch (IllegalArgumentException e)
+        {
+            System.out.println("message for catching an invalid category: " + e.getMessage());
+        }
 
         //These lines of code will test the Purchases class
 
