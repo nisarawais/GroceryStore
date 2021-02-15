@@ -72,8 +72,8 @@ public class Main {
         System.out.printf("The total price is $%.2f%n", purchases.getTotalPrice());
 
         //test the getGroceryNames as a String
-//        System.out.println("\n-- showing all the groceries separated by commas --");
-//        System.out.printf("The groceries purchased are: %s%n",purchases.getGroceryNames());
+        System.out.println("\n-- showing all the groceries separated by commas --");
+        System.out.printf("The groceries purchased are: %s%n",purchases.getGroceryNames());
 
         //test the categories
 //        System.out.println("\n-- showing all the categories separated by commas without duplicates --");

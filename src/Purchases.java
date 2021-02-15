@@ -25,4 +25,14 @@ public class Purchases {
         }
         return total;
     }
+
+    public String getGroceryNames()
+    {
+        String groceries = "";
+        for (GroceryItem groceryItem:purchases)
+        {
+            groceries += groceryItem.getName() + ", ";
+        }
+        return groceries.substring(0, groceries.length()-2);
+    }
 }
